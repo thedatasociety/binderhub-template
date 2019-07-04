@@ -1,6 +1,12 @@
 <div align="center">
  <img src="https://avatars3.githubusercontent.com/u/47368510?s=200&v=4" width="100px">
  <h3>The Data Science and Engineering Society </h3>
+
+ <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/github-icon.png" width="35px"></a>
+ <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png" width="35px"></a>
+ <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png" width="35px"></a>
+ <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png" width="35px"></a>
+
 </div>
 
 
