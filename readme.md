@@ -2,10 +2,19 @@
  <img src="https://avatars3.githubusercontent.com/u/47368510?s=200&v=4" width="100px">
  <h3>The Data Science and Engineering Society </h3>
 
- <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/github-icon.png" width="25px"></a>
- <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png" width="25px"></a>
- <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png" width="25px"></a>
- <a href="" ><img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png" width="25px"></a>
+[![our github ][icon-github]]()
+[![our twitter][icon-twitter]]()
+
+
+ <a href="" >
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png" width="25px" alt="our docker hub organization">
+ </a>
+ <a href="" >
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png" width="25px" alt="our slack">
+ </a>
+ <a href="" >
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png" width="25px" alt="our twitter">
+ </a>
 
 </div>
 
@@ -13,12 +22,11 @@
 # binderhub-template
 
 A repository template for lauching specific environments on [binderhub](https://github.com/jupyterhub/binderhub) instances.
-Available instances are:
-binderhub server 
-([gke.mybinder.org](gke.mybinder.org),
+Available instances are: 
+[gke.mybinder.org](gke.mybinder.org),
 [ovh.mybinder.org](ovh.mybinder.org),
 [binder.gesis.org](binder.gesis.org),
-[binder.pangeo.io](binder.pangeo.io)).
+[binder.pangeo.io](binder.pangeo.io).
 
 ## Table of contents
 
@@ -137,22 +145,6 @@ and a binderhub server
     
 ### Launch this lab locally using Docker
 
-#### Via our Docker image
-
-You can run a containerized instance of this lab from [our own Docker image](https://hub.docker.com/r/thedatasociety/lab-template/). Try:
-  
-```bash
-docker run -it -p 8888:8888 thedatasociety/lab-template
-```
-
-Alternatively, you can map you local home folder into the container:
-
-```bash
-docker run -it -v $(echo ~):/jupyter/data/ -p 8888:8888 thedatasociety/lab-template
-```
-
-The *Dockerfile* used to build the image can be found [here](https://github.com/thedatasociety/lab-template/tree/master/resources/docker/).
-
 
 #### Via [repo2docker](https://github.com/jupyter/repo2docker)
 
@@ -185,7 +177,12 @@ See the repo2docker documentation for more details [regarding the use of multipl
 
 
 
+<!-- icons -->
 
+[icon-twitter]:https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png
+[icon-slack]:https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png
+[icon-github]:https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/github-icon.png
+[icon-docker]:https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png
 
 <!-- JupyterLab badges -->
 
