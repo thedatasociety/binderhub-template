@@ -22,11 +22,6 @@
 # binderhub-template
 
 A repository template for launching specific interfaces on [binderhub](https://github.com/jupyterhub/binderhub) instances.
-Available instances are: 
-[gke.mybinder.org](gke.mybinder.org),
-[ovh.mybinder.org](ovh.mybinder.org),
-[binder.gesis.org](binder.gesis.org),
-[binder.pangeo.io](binder.pangeo.io).
 
 ## Table of contents
 
