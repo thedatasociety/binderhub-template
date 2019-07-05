@@ -137,7 +137,7 @@ You can also launch this repository locally using [Docker](https://docker.com) a
 
 The command below launches a container on port `8888`. It also creates a Docker volume that maps the user's home into the container (the `local-home` folder).
 
-Before running it, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) of more details. It is strongly advised to not to run the container as root. 
+Before running it, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) for more details. **It is strongly advised to not to run the container as root**. 
 Please also be aware that the `--ip 0.0.0.0` directive will start a sever which **will accept connections from any ip**. For security purposes the `--NotebookApp.token='dstoken1234567'` directive forces the requirement of a token for accessing any interface. Use the `dstoken1234567` to login or feel free to set a stronger token.
 
 ```bash
