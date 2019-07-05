@@ -39,7 +39,7 @@ Available instances are:
   - [Shiny](#shiny)
   - [Nteract](#nteract)
   - [Stencila](#stencila)
-- [Launch this lab locally using repo2docker](#launch-this-lab-locally-using-repo2docker)
+- [Launching this repository locally using repo2docker](#launching-this-repository-locally-using-repo2docker)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -48,7 +48,7 @@ Available instances are:
 
 ### Launching this repository on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
-[Binderhub](https://github.com/jupyterhub/binderhub) uses repo2docker for launching and serving the computational environments. Repo2docker supports the following interfaces: 
+[Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
 - [Jupyter](https://jupyter.org/)
 - [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 - [Rstudio](https://rstudio.com/)
@@ -56,13 +56,13 @@ Available instances are:
 - [Shiny](https://shiny.rstudio.com/)
 - [Stencila](https://stenci.la/)
 
-Know available binderhub instances:
+The list below contains the known binderhub instances.
 - [gke.mybinder.org](gke.mybinder.org)
 - [ovh.mybinder.org](ovh.mybinder.org)
 - [binder.gesis.org](binder.gesis.org)
 - [binder.pangeo.io](binder.pangeo.io)
 
-The list below provides the badges and links for launching one of the specific interfaces in one of the binderhub instances.
+The list below provides the badges and the hyperlinks for launching one of the specific interfaces in one of the binderhub instances.
     
 
 #### Jupyter 
@@ -130,12 +130,15 @@ The list below provides the badges and links for launching one of the specific i
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/binderhub-template/master?urlpath=stencila)
 
     
-### Launch this lab locally using [repo2docker](https://github.com/jupyter/repo2docker)
+### Launching this repository locally using [repo2docker](https://github.com/jupyter/repo2docker)
+
+You can also launch this repository locally using [Docker](https://docker.com) and [repo2docker](https://github.com/jupyter/repo2docker). Please refer to this [link](https://docs.docker.com/install/) for installing Docker and this [link](https://repo2docker.readthedocs.io/en/latest/install.html#) for installing repo2docker.
 
 
 The command below launches a container on port `8888`. It also creates a Docker volume that maps the user's home into the container (the `local-home` folder).
 
-Before running it, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) of more details. It is strongly advised to not to run the container as root. Please also be aware that the `jupyter-lab --ip 0.0.0.0` directives will start a sever which **will accept connection from any ip**. For security purposes the `--NotebookApp.token='dstoken1234567'` directive will require a token for accessing any interface; use it to login. Feel free to set a stronger token.
+Before running it, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) of more details. It is strongly advised to not to run the container as root. 
+Please also be aware that the `--ip 0.0.0.0` directive will start a sever which **will accept connections from any ip**. For security purposes the `--NotebookApp.token='dstoken1234567'` directive forces the requirement of a token for accessing any interface. Use the `dstoken1234567` to login or feel free to set a stronger token.
 
 ```bash
 repo2docker -p 8888:8888 \
@@ -158,7 +161,7 @@ Each interface will be available at a specific path, as follows:
 
 * **Shiny**: [http://0.0.0.0:8888/shiny](http://0.0.0.0:8888/shiny)  
 
-See the repo2docker documentation for more details [regarding the use of multiple interfaces](https://mybinder.readthedocs.io/en/latest/howto/user_interface.html).
+See the [repo2docker](https://github.com/jupyter/repo2docker) documentation for more details [regarding the use of multiple interfaces](https://mybinder.readthedocs.io/en/latest/howto/user_interface.html).
 
 
 
