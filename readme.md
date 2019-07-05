@@ -1,20 +1,22 @@
+<!-- ds header -->
 <div align="center">
  <img src="https://avatars3.githubusercontent.com/u/47368510?s=200&v=4" width="100px">
  <h3>The Data Science and Engineering Society </h3>
- <a href="https://github.com/thedatasociety" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/github-icon.png" width="25px" alt="github organization">
+ <hr/>
+ <a href="https://github.com/thedatasociety" target="_blank">
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/github-icon.png" width="30px" alt="github organization">
  </a>
- <a href="https://hub.docker.com/search?q=thedatasociety&type=image" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png" width="25px" alt="our docker hub organization">
+ <a href="https://hub.docker.com/search?q=thedatasociety&type=image"  target="_blank" >
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/docker-icon.png" width="30px" alt="our docker hub organization">
  </a>
- <a href="https://thedatasociety.slack.com" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png" width="25px" alt="our slack">
+ <a href="https://thedatasociety.slack.com" target="_blank" >
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/slack-icon.png" width="30px" alt="our slack">
  </a>
- <a href="https://twitter.com/thedatasociety" >
-   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png" width="25px" alt="our twitter">
+ <a href="https://twitter.com/thedatasociety" target="_blank">
+   <img src="https://raw.githubusercontent.com/thedatasociety/binderhub-template/master/resources/images/twitter-icon.png" width="30px" alt="our twitter">
  </a>
-
 </div>
+<!-- /ds header -->
 
 
 # binderhub-template
