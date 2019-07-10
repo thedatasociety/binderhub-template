@@ -18,7 +18,6 @@
 </div>
 <!-- /ds header -->
 
-
 # binderhub-template
 
 A repository template for launching specific interfaces on [binderhub](https://github.com/jupyterhub/binderhub) instances.
