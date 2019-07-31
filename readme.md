@@ -54,8 +54,7 @@ A repository template for launching specific interfaces on [binderhub](https://g
 - [Stencila](https://stenci.la/)
 
 The list below contains the known binderhub instances.
-- [gke.mybinder.org](gke.mybinder.org)
-- [ovh.mybinder.org](ovh.mybinder.org)
+- [mybinder.org](mybinder.org) (a [federation](https://blog.jupyter.org/the-international-binder-federation-4f6235c1537e) of [Binderhub](https://github.com/jupyterhub/binderhub) instances)
 - [binder.gesis.org](binder.gesis.org)
 - [binder.pangeo.io](binder.pangeo.io)
 
